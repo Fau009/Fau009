@@ -78,15 +78,15 @@
 
 > *"Nada melhor para a criatividade do que uma pitada de loucura e fantasia"*
 
-<div align="center">
+<div align="center" style="font-size: 12px">
 
 | 🎬 Filmes | 🙏 Orações | 🎌 Animes e Animações | 🥊 Boxe | 🕹️ Games | 📚 Livros | 🏀 Basquete | 📖 Mangás e HQs | 📺 Séries |
 |-----------|-----------|----------------------|---------|----------|----------|------------|----------------|----------|
 | Back to the Future | Pai Nosso | Attack on Titan | Disciplina | EA FC | Harry Potter | Habilidade | Akira | Game Of Thrones |
 | Star Wars | Ave Maria | Death Note | Resistência | Hogwarts Legacy | Percy Jackson | Velocidade | Scott Pilgrim | The Big Bang Theory |
-| Matrix | Espírito Santo | Fullmetal Alchemist | Foco | Jedi Fallen Order | Desventuras em série | Arremesso | | The Office |
-| Interstellar | Creio | Avatar a Lenda de Aang | Força | Sonic | As Crônicas de Nárnia | Ala | | The Boys |
-| Marvel/DC | Santo Anjo e São Bento | Solo Leveling | Estratégia | Super Mario | Senhor dos Anéis | Armador | | Stranger Things |
+| Matrix | Espírito Santo | Fullmetal Alchemist | Foco | Jedi Fallen Order | Desventuras em série | Arremesso | Naruto | The Office |
+| Interstellar | Creio | Avatar a Lenda de Aang | Força | Sonic | As Crônicas de Nárnia | Ala | Shaman King | The Boys |
+| Marvel/DC | Santo Anjo e São Bento | Solo Leveling | Estratégia | Super Mario | Senhor dos Anéis | Armador | Demon Slayer | Stranger Things |
 
 </div>
 
