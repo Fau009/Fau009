@@ -80,13 +80,13 @@
 
 <div align="center">
 
-| 🎌 Animes | 🎬 Filmes | 🕹️ Games | 🏀 Basquete | 🥊 Boxe |
-|-----------|-----------|----------|------------|---------|
-| Attack on Titan | Back to the Future | EA FC | Habilidade | Disciplina |
-| Death Note | Star Wars | Hogwarts Legacy | Velocidade | Resistência |
-| Shaman King | Matrix | Jedi Fallen Order | Arremesso | Foco |
-| Naruto | Interstellar | Sonic | Ala | Força |
-| Fullmetal Alchemist | Marvel/DC | Super Mario | Armador | Estratégia |
+| 🎬 Filmes | 🙏 Orações | 🎌 Animes e Animações | 🥊 Boxe | 🕹️ Games | 📚 Livros | 🏀 Basquete | 📖 Mangás e HQs | 📺 Séries |
+|-----------|-----------|----------------------|---------|----------|----------|------------|----------------|----------|
+| Back to the Future | Pai Nosso | Attack on Titan | Disciplina | EA FC | Harry Potter | Habilidade | Akira | Game Of Thrones |
+| Star Wars | Ave Maria | Death Note | Resistência | Hogwarts Legacy | Percy Jackson | Velocidade | Scott Pilgrim | The Big Bang Theory |
+| Matrix | Espírito Santo | Fullmetal Alchemist | Foco | Jedi Fallen Order | Desventuras em série | Arremesso | | The Office |
+| Interstellar | Creio | Avatar a Lenda de Aang | Força | Sonic | As Crônicas de Nárnia | Ala | | The Boys |
+| Marvel/DC | Santo Anjo e São Bento | Solo Leveling | Estratégia | Super Mario | Senhor dos Anéis | Armador | | Stranger Things |
 
 </div>
 
