@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=8F0D87&height=120&section=header&text=Hey%2C%20I%27m%20Fau!%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
+<img width="100%" alt="Hey, I'm Fau!" src="https://capsule-render.vercel.app/api?type=waving&color=8F0D87&height=120&section=header&text=Hey%2C%20I%27m%20Fau!%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 
 <p align="center">
   <a href="https://github.com/Fau009">
@@ -15,7 +15,7 @@
 &nbsp;
 
 <div align="center">
-  <img width="55%" src="https://github-readme-streak-stats.herokuapp.com?user=Fau009&theme=radical&mode=weekly" />
+  <img width="55%" alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com?user=Fau009&theme=radical&mode=weekly" />
 </div>
 
 &nbsp;
@@ -78,7 +78,7 @@
 
 > *"Nada melhor para a criatividade do que uma pitada de loucura e fantasia"*
 
-<div align="center" style="font-size: 12px">
+<div align="center">
 
 | 🎬 Filmes | 🙏 Orações | 🎌 Animes e Animações | 🥊 Boxe | 🕹️ Games | 📚 Livros | 🏀 Basquete | 📖 Mangás e HQs | 📺 Séries |
 |-----------|-----------|----------------------|---------|----------|----------|------------|----------------|----------|
@@ -95,12 +95,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://raw.githubusercontent.com/Fau009/Fau009/output/stats.svg"/>
-  <img height="180em" src="https://raw.githubusercontent.com/Fau009/Fau009/output/top-langs.svg"/>
+  <img height="180em" alt="GitHub Stats" src="https://raw.githubusercontent.com/Fau009/Fau009/output/stats.svg"/>
+  <img height="180em" alt="Linguagens mais usadas" src="https://raw.githubusercontent.com/Fau009/Fau009/output/top-langs.svg"/>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Fau009/Fau009/output/contrib-3d.svg" width="90%"/>
+  <img alt="Contribuições em 3D" src="https://raw.githubusercontent.com/Fau009/Fau009/output/contrib-3d.svg" width="90%"/>
 </div>
 
 &nbsp;
@@ -123,13 +123,13 @@
 
 <div>
   <a href="https://www.instagram.com/fau9/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
   <a href="mailto:contato.fabio.email9@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+    <img alt="Gmail" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
   <a href="https://www.linkedin.com/in/fabiocx/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 </div>
 
@@ -139,4 +139,4 @@
   <img src="https://komarev.com/ghpvc/?username=Fau009&color=8F0D87&style=flat-square&label=Profile+Views" alt="Profile views" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=8F0D87&height=120&section=footer"/>
+<img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&color=8F0D87&height=120&section=footer"/>
