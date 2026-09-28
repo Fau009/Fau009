@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320" role="img" aria-label="Setup de desenvolvimento">
+  <title>Setup de desenvolvimento</title>
+  <style>
+    .blink{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .l{animation:type 6s ease-in-out infinite;transform-box:fill-box;transform-origin:left}
+    .l2{animation-delay:.4s}.l3{animation-delay:.8s}.l4{animation-delay:1.2s}.l5{animation-delay:1.6s}.l6{animation-delay:2s}.l7{animation-delay:2.4s}
+    @keyframes type{0%{transform:scaleX(0)}25%,85%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    .steam{animation:steam 3s ease-in-out infinite;opacity:0}
+    .s2{animation-delay:1.5s}
+    @keyframes steam{0%{opacity:0;transform:translateY(4px)}40%{opacity:.7}100%{opacity:0;transform:translateY(-14px)}}
+  </style>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8F0D87" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#8F0D87" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1030"/>
+      <stop offset="1" stop-color="#0d0a1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- brilho de fundo -->
+  <ellipse cx="200" cy="150" rx="170" ry="120" fill="url(#glow)"/>
+
+  <!-- mesa -->
+  <rect x="20" y="262" width="360" height="12" rx="4" fill="#3a2350"/>
+  <rect x="44" y="274" width="10" height="40" rx="2" fill="#2a1a3a"/>
+  <rect x="346" y="274" width="10" height="40" rx="2" fill="#2a1a3a"/>
+
+  <!-- monitor -->
+  <rect x="82" y="46" width="236" height="152" rx="10" fill="#241638" stroke="#8F0D87" stroke-width="3"/>
+  <rect x="94" y="58" width="212" height="128" rx="4" fill="url(#screen)"/>
+  <circle cx="106" cy="68" r="3" fill="#ff5f56"/><circle cx="116" cy="68" r="3" fill="#ffbd2e"/><circle cx="126" cy="68" r="3" fill="#27c93f"/>
+  <!-- linhas de código -->
+  <g stroke-linecap="round" stroke-width="5">
+    <line class="l"    x1="106" y1="86"  x2="170" y2="86"  stroke="#fe428e"/>
+    <line class="l l2" x1="118" y1="100" x2="230" y2="100" stroke="#a9fef7"/>
+    <line class="l l3" x1="118" y1="114" x2="200" y2="114" stroke="#f8d847"/>
+    <line class="l l4" x1="130" y1="128" x2="260" y2="128" stroke="#a9fef7"/>
+    <line class="l l5" x1="130" y1="142" x2="210" y2="142" stroke="#c77dff"/>
+    <line class="l l6" x1="118" y1="156" x2="180" y2="156" stroke="#fe428e"/>
+    <line class="l l7" x1="106" y1="170" x2="150" y2="170" stroke="#f8d847"/>
+  </g>
+  <rect class="blink" x="156" y="165" width="6" height="11" fill="#ffffff"/>
+  <!-- suporte -->
+  <rect x="186" y="198" width="28" height="40" fill="#2f1d45"/>
+  <rect x="150" y="236" width="100" height="10" rx="5" fill="#3a2350"/>
+
+  <!-- teclado -->
+  <rect x="120" y="248" width="140" height="14" rx="4" fill="#2f1d45" stroke="#8F0D87" stroke-width="1.5"/>
+  <g fill="#5b3a7a">
+    <rect x="128" y="252" width="10" height="6" rx="1"/><rect x="142" y="252" width="10" height="6" rx="1"/>
+    <rect x="156" y="252" width="10" height="6" rx="1"/><rect x="170" y="252" width="40" height="6" rx="1"/>
+    <rect x="214" y="252" width="10" height="6" rx="1"/><rect x="228" y="252" width="10" height="6" rx="1"/>
+    <rect x="242" y="252" width="10" height="6" rx="1"/>
+  </g>
+  <!-- mouse -->
+  <rect x="276" y="250" width="14" height="12" rx="6" fill="#2f1d45" stroke="#8F0D87" stroke-width="1.5"/>
+
+  <!-- planta -->
+  <path d="M52 262 l6 -30 h24 l6 30 z" fill="#5b3a7a"/>
+  <path d="M70 232 C60 210 44 206 38 196 C54 196 66 206 70 222 C70 200 78 186 90 180 C88 198 80 214 72 232 Z" fill="#27c93f"/>
+  <path d="M70 232 C74 214 86 206 100 206 C94 218 84 226 72 232 Z" fill="#1fa336"/>
+
+  <!-- caneca -->
+  <rect x="312" y="232" width="30" height="30" rx="4" fill="#8F0D87"/>
+  <path d="M342 238 h6 a8 8 0 0 1 0 16 h-6" fill="none" stroke="#8F0D87" stroke-width="4"/>
+  <text x="327" y="252" font-family="monospace" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">{ }</text>
+  <path class="steam" d="M322 226 q-4 -6 0 -12 q4 -6 0 -12" fill="none" stroke="#c9b8e0" stroke-width="2" stroke-linecap="round"/>
+  <path class="steam s2" d="M332 226 q-4 -6 0 -12 q4 -6 0 -12" fill="none" stroke="#c9b8e0" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- detalhes flutuantes -->
+  <text x="340" y="70" font-family="monospace" font-size="22" font-weight="bold" fill="#fe428e" opacity=".85">&lt;/&gt;</text>
+  <text x="30" y="96" font-family="monospace" font-size="18" font-weight="bold" fill="#a9fef7" opacity=".8">IA</text>
+  <circle cx="352" cy="130" r="5" fill="#f8d847" opacity=".8"/>
+  <circle cx="40" cy="150" r="4" fill="#c77dff" opacity=".8"/>
+</svg>
