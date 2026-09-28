@@ -95,12 +95,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Fau009&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fau009&layout=compact&langs_count=7&theme=radical&hide_border=true&hide=jupyter%20notebook"/>
+  <img height="180em" src="https://raw.githubusercontent.com/Fau009/Fau009/output/stats.svg"/>
+  <img height="180em" src="https://raw.githubusercontent.com/Fau009/Fau009/output/top-langs.svg"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fau009&theme=redical&hide_border=true&area=true" width="90%"/>
+  <img src="https://raw.githubusercontent.com/Fau009/Fau009/output/contrib-3d.svg" width="90%"/>
 </div>
 
 &nbsp;
