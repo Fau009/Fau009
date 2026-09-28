@@ -27,11 +27,45 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # Esconde automaticamente as linhas do card que estiverem zeradas.
+      # Assim que algum valor passar de 0, a linha volta a aparecer sozinha.
+      - name: detect zero stats
+        id: zeros
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
+          LOGIN: ${{ github.repository_owner }}
+        run: |
+          data=$(gh api graphql -f login="$LOGIN" -f query='
+            query($login: String!) {
+              user(login: $login) {
+                pullRequests { totalCount }
+                openIssues: issues(states: OPEN) { totalCount }
+                closedIssues: issues(states: CLOSED) { totalCount }
+                repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) { totalCount }
+                repositories(first: 100, ownerAffiliations: OWNER) { nodes { stargazerCount } }
+              }
+            }')
+          stars=$(echo "$data"  | jq '[.data.user.repositories.nodes[].stargazerCount] | add // 0')
+          prs=$(echo "$data"    | jq '.data.user.pullRequests.totalCount')
+          issues=$(echo "$data" | jq '.data.user.openIssues.totalCount + .data.user.closedIssues.totalCount')
+          contribs=$(echo "$data" | jq '.data.user.repositoriesContributedTo.totalCount')
+          hide=()
+          [ "$stars" -eq 0 ]    && hide+=(stars)
+          [ "$prs" -eq 0 ]      && hide+=(prs)
+          [ "$issues" -eq 0 ]   && hide+=(issues)
+          [ "$contribs" -eq 0 ] && hide+=(contribs)
+          echo "stars=$stars prs=$prs issues=$issues contribs=$contribs -> ocultar: ${hide[*]:-nada}"
+          if [ ${#hide[@]} -gt 0 ]; then
+            echo "extra=&hide=$(IFS=,; echo "${hide[*]}")" >> "$GITHUB_OUTPUT"
+          else
+            echo "extra=" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&locale=pt-br${{ steps.zeros.outputs.extra }}
           path: dist/stats.svg
           token: ${{ secrets.GH_PAT || github.token }}
 
@@ -39,7 +73,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=7&theme=radical&hide_border=true&hide=jupyter notebook
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=7&theme=radical&hide_border=true&hide=jupyter notebook&locale=pt-br
           path: dist/top-langs.svg
           token: ${{ secrets.GH_PAT || github.token }}
 
